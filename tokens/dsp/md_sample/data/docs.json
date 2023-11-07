@@ -1,0 +1,17 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "Steffen Lohbrandt",
+  "last_updated": "2023-08-29T23:27:23.980Z",
+  "entities": [
+    {
+      "id": "242c2034-af81-4d0b-889b-0b5013c827a6",
+      "class": "doc",
+      "type": "page",
+      "name": "New page",
+      "description": "Edit this with the pencil icon.\n\nMarkdown is supported to help you create great documentation for your design system.",
+      "tags": [],
+      "last_updated": "2023-09-27T23:25:17.104Z",
+      "last_updated_by": "ITSG.Lohbrandt"
+    }
+  ]
+}
