@@ -911,21 +911,21 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/common/logo/logo.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  args: {}\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\n  args: {\n    item: {id: '1', title: 'Active Card', preview: ''},\n    progress: 42,\n  }\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/common/logo/logo.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {}\n}"
             },
             {
                 "name": "Default",
@@ -1031,21 +1031,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/common/logo/logo.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<LogoComponent>",
-                "defaultValue": "{\n  title: 'Common / App / Logo',\n  component: LogoComponent,\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ActiveProjectCardComponent>",
                 "defaultValue": "{\n  title: 'Common / Cards / Active Project',\n  component: ActiveProjectCardComponent,\n  argTypes: {\n    progress: {\n      control: {type: 'range', min: 0, max: 100, step: 3}\n    }\n  }\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/common/logo/logo.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<LogoComponent>",
+                "defaultValue": "{\n  title: 'Common / App / Logo',\n  component: LogoComponent,\n}"
             },
             {
                 "name": "preview",
@@ -1147,8 +1147,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<LogoComponent>",
-                "file": "src/app/common/logo/logo.component.stories.ts",
+                "rawtype": "StoryObj<ActiveProjectCardComponent>",
+                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1158,8 +1158,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<ActiveProjectCardComponent>",
-                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                "rawtype": "StoryObj<LogoComponent>",
+                "file": "src/app/common/logo/logo.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1178,28 +1178,6 @@
                     "deprecationMessage": "",
                     "type": "ApplicationConfig",
                     "defaultValue": "{\n  providers: [provideRouter(routes, withHashLocation()), provideAnimations()]\n}"
-                }
-            ],
-            "src/app/common/logo/logo.component.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/common/logo/logo.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  args: {}\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/common/logo/logo.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<LogoComponent>",
-                    "defaultValue": "{\n  title: 'Common / App / Logo',\n  component: LogoComponent,\n}"
                 }
             ],
             "src/app/common/active-project-card/active-project-card.component.stories.ts": [
@@ -1222,6 +1200,28 @@
                     "deprecationMessage": "",
                     "type": "Meta<ActiveProjectCardComponent>",
                     "defaultValue": "{\n  title: 'Common / Cards / Active Project',\n  component: ActiveProjectCardComponent,\n  argTypes: {\n    progress: {\n      control: {type: 'range', min: 0, max: 100, step: 3}\n    }\n  }\n}"
+                }
+            ],
+            "src/app/common/logo/logo.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/common/logo/logo.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {}\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/common/logo/logo.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<LogoComponent>",
+                    "defaultValue": "{\n  title: 'Common / App / Logo',\n  component: LogoComponent,\n}"
                 }
             ],
             "src/app/common/preview-card/preview-card.component.stories.ts": [
@@ -1439,19 +1439,6 @@
                     "kind": 183
                 }
             ],
-            "src/app/common/logo/logo.component.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<LogoComponent>",
-                    "file": "src/app/common/logo/logo.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "src/app/common/active-project-card/active-project-card.component.stories.ts": [
                 {
                     "name": "Story",
@@ -1459,6 +1446,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ActiveProjectCardComponent>",
                     "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "src/app/common/logo/logo.component.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<LogoComponent>",
+                    "file": "src/app/common/logo/logo.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",

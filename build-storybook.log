@@ -1,0 +1,707 @@
+
+> design-system-impl-material@0.0.0 build-storybook
+> ng run design-system-impl-material:build-storybook --output-dir /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs
+
+Node.js version v21.1.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/releases/.
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.22
+
+TypeScript version used by Compodoc : 5.2.2
+
+TypeScript version of current project : 5.0.2
+
+Node.js version : v21.1.0
+
+Operating system : macOS Unknown
+
+[12:50:33] No configuration file found, switching to CLI flags.
+[12:50:33] Using tsconfig file : /Volumes/development/design_system/design-system-impl-material/.storybook/tsconfig.json
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/.storybook/preview.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/favicon.ico
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/index.html
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/main.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/styles.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.config.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.routes.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Button.stories.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/Configure.mdx
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Header.stories.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Page.stories.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/User.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/button.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/button.css
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/header.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/header.css
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/page.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/page.css
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/app-logo.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/bell.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-1.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-2.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-3.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/tt-logo-dark-theme.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/tt-logo-light-theme.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/user.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/accessibility.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/accessibility.svg
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/addon-library.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/assets.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/context.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/discord.svg
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/docs.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/figma-plugin.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/github.svg
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/share.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/styling.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/testing.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/theming.png
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/tutorials.svg
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/youtube.svg
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.stories.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.stories.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.stories.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/shared/models/project.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.html
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.scss
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.stories.ts
+[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.ts
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/breakpoints.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/overlay.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/state.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/typography.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/_index.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/sys-color-dark.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/sys-color-light.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/_index.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/ref-colors.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/ref-typeface.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-shape.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-sizes.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-states.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-typescale.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/angular-material/theming.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/angular-material/typography-config.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/overrides/drawer.scss
+[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/overrides/mdc.scss
+[12:50:33] Searching package.json file
+[12:50:33] package.json file found
+[12:50:33] Processing package.json dependencies
+[12:50:33] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[12:50:33] README.md file found
+[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/CHANGELOG read
+[12:50:33] Continuing without CHANGELOG.md file
+[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/CONTRIBUTING read
+[12:50:33] Continuing without CONTRIBUTING.md file
+[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/LICENSE read
+[12:50:33] Continuing without LICENSE.md file
+[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/TODO read
+[12:50:33] Continuing without TODO.md file
+[12:50:33] Get dependencies data
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/.storybook/preview.ts
+[12:50:33] found          : preview
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/main.ts
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.ts
+[12:50:33] found          : AppComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33]                : 	- RouterOutlet
+[12:50:33]                : 	- MainLayoutComponent
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.config.ts
+[12:50:33] found          : appConfig
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.routes.ts
+[12:50:33] Analysing routes definitions and clean them if necessary
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Button.stories.ts
+[12:50:33] found          : meta
+[12:50:33] found          : Story
+[12:50:33] found          : Primary
+[12:50:33] found          : Secondary
+[12:50:33] found          : Large
+[12:50:33] found          : Small
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Header.stories.ts
+[12:50:33] found          : meta
+[12:50:33] found          : Story
+[12:50:33] found          : LoggedIn
+[12:50:33] found          : LoggedOut
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Page.stories.ts
+[12:50:33] found          : meta
+[12:50:33] found          : Story
+[12:50:33] found          : LoggedOut
+[12:50:33] found          : LoggedIn
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/User.ts
+[12:50:33] found          : User
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/button.component.ts
+[12:50:33] found          : ButtonComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/header.component.ts
+[12:50:33] found          : HeaderComponent
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/page.component.ts
+[12:50:33] found          : PageComponent
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.stories.ts
+[12:50:33] found          : meta
+[12:50:33] found          : Story
+[12:50:33] found          : Default
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.ts
+[12:50:33] found          : ActiveProjectCardComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33]                : 	- MatProgressBarModule
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.stories.ts
+[12:50:33] found          : meta
+[12:50:33] found          : Story
+[12:50:33] found          : Default
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.ts
+[12:50:33] found          : LogoComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.ts
+[12:50:33] found          : NavigationComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33]                : 	- MatListModule
+[12:50:33]                : 	- RouterLink
+[12:50:33]                : 	- RouterLinkActive
+[12:50:33]                : 	- MatRippleModule
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.ts
+[12:50:33] found          : MainLayoutComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33]                : 	- MatSidenavModule
+[12:50:33]                : 	- TopAppBarComponent
+[12:50:33]                : 	- LogoComponent
+[12:50:33]                : 	- MatListModule
+[12:50:33]                : 	- MatBadgeModule
+[12:50:33]                : 	- MatButtonModule
+[12:50:33]                : 	- NavigationComponent
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.ts
+[12:50:33] found          : TopAppBarComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33]                : 	- MatToolbarModule
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.stories.ts
+[12:50:33] found          : Template
+[12:50:33] found          : Default
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.ts
+[12:50:33] found          : PreviewCardComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33]                : 	- NgIf
+[12:50:33]                : 	- MatRippleModule
+[12:50:33]                : 	- MatProgressBarModule
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/shared/models/project.ts
+[12:50:33] found          : Project
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.stories.ts
+[12:50:33] found          : Template
+[12:50:33] found          : Default
+[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.ts
+[12:50:33] found          : DashboardComponent
+[12:50:33]                : - imports:
+[12:50:33]                : 	- CommonModule
+[12:50:33]                : 	- PreviewCardComponent
+[12:50:33]                : 	- NgFor
+[12:50:33]                : 	- ActiveProjectCardComponent
+[12:50:33] -------------------
+[12:50:33] Project statistics 
+[12:50:33] - component  : 11
+[12:50:33] - interface  : 2
+[12:50:33] -------------------
+[12:50:33] Prepare components
+[12:50:33]  ActiveProjectCardComponent has a templateUrl, include it
+[12:50:33]  ActiveProjectCardComponent has styleUrls, include them
+[12:50:33]  AppComponent has a templateUrl, include it
+[12:50:33]  AppComponent has styleUrls, include them
+[12:50:33]  ButtonComponent has styleUrls, include them
+[12:50:33]  DashboardComponent has a templateUrl, include it
+[12:50:33]  DashboardComponent has styleUrls, include them
+[12:50:33]  HeaderComponent has styleUrls, include them
+[12:50:33]  LogoComponent has a templateUrl, include it
+[12:50:33]  LogoComponent has styleUrls, include them
+[12:50:33]  MainLayoutComponent has a templateUrl, include it
+[12:50:33]  MainLayoutComponent has styleUrls, include them
+[12:50:33]  NavigationComponent has a templateUrl, include it
+[12:50:33]  NavigationComponent has styleUrls, include them
+[12:50:33]  PageComponent has styleUrls, include them
+[12:50:33]  PreviewCardComponent has a templateUrl, include it
+[12:50:33]  PreviewCardComponent has styleUrls, include them
+[12:50:33]  TopAppBarComponent has a templateUrl, include it
+[12:50:33]  TopAppBarComponent has styleUrls, include them
+[12:50:33] Prepare modules
+[12:50:33] Prepare interfaces
+[12:50:33] Prepare miscellaneous
+[12:50:33] Process documentation coverage report
+[12:50:33] Generating documentation in export format json
+[12:50:33] Documentation generated in ./ in 0.16 seconds
+info => Cleaning outputDir: /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs
+
+(node:26991) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+info => Loading presets
+WARN The "@storybook/addon-mdx-gfm" addon is meant as a migration assistant for Storybook 7.0; and will likely be removed in a future version.
+WARN It's recommended you read this document:
+WARN https://storybook.js.org/docs/react/writing-docs/mdx#lack-of-github-flavored-markdown-gfm
+WARN 
+WARN Once you've made the necessary changes, you can remove the addon from your package.json and storybook config.
+info => Building manager..
+info => Manager built (78 ms)
+info => Building preview..
+info => Copying static files: /Volumes/development/design_system/design-system-impl-material/node_modules/@storybook/manager/static at /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs/sb-common-assets
+info Addon-docs: using MDX2
+info => Using implicit CSS loaders
+info => Using angular browser target options from "design-system-impl-material:build"
+info => Using angular project with "tsConfig:/Volumes/development/design_system/design-system-impl-material/.storybook/tsconfig.json"
+info => Using default Webpack5 setup
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 1% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile angular-compiler
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation angular-occurrences-plugin
+<s> [webpack.Progress] 8% setup compilation CopyPlugin
+<s> [webpack.Progress] 8% setup compilation angular-compiler
+<s> [webpack.Progress] 8% setup compilation styles-webpack-plugin
+<s> [webpack.Progress] 8% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 8% setup compilation unplugin-csf
+<s> [webpack.Progress] 8% setup compilation storybook-normalize-angular-entry-plugin
+<s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation named-chunks-plugin
+<s> [webpack.Progress] 9% setup compilation DedupeModuleResolvePlugin
+<s> [webpack.Progress] 9% setup compilation AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 9% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 9% setup compilation SuppressExtractedTextChunks
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation ProvidePlugin
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DynamicEntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaContextPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js
+<s> [webpack.Progress] 10% building 0/4 entries 1/4 dependencies 0/1 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/resolve-url-loader/index.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/sass-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building 0/4 entries 2/4 dependencies 0/2 modules
+<s> [webpack.Progress] 23% building 1/4 entries 9/21 dependencies 1/9 modules
+<s> [webpack.Progress] 35% building 2/4 entries 11/24 dependencies 5/11 modules
+<s> [webpack.Progress] 37% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
+<s> [webpack.Progress] 37% building 2/4 entries 23/39 dependencies 5/23 modules
+<s> [webpack.Progress] 37% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
+<s> [webpack.Progress] 37% building 2/4 entries 24/39 dependencies 5/24 modules
+<s> [webpack.Progress] 37% building import loader ./node_modules/unplugin/dist/webpack/loaders/load.js
+<s> [webpack.Progress] 37% building 2/4 entries 52/82 dependencies 7/43 modules
+<s> [webpack.Progress] 37% building 2/4 entries 343/400 dependencies 78/168 modules
+<s> [webpack.Progress] 37% building 2/4 entries 2147/2200 dependencies 174/722 modules
+<s> [webpack.Progress] 55% building 2/4 entries 3373/3400 dependencies 926/1112 modules
+<s> [webpack.Progress] 64% building 3/4 entries 3836/3836 dependencies 1189/1197 modules
+<s> [webpack.Progress] 65% building 4/4 entries 3839/3839 dependencies 1197/1197 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph angular-compiler
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids NamedModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
+<s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.7b49f76f80e30a80d7c8.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.7b49f76f80e30a80d7c8.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.5a21e168.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.5a21e168.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.5260e7e1.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.5260e7e1.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Configure-mdx.7ce14905.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Configure-mdx.7ce14905.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-common-active-project-card-active-project-card-component-stories.00c85186.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-common-active-project-card-active-project-card-component-stories.00c85186.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-common-logo-logo-component-stories.4404f61a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-common-logo-logo-component-stories.4404f61a.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-common-preview-card-preview-card-component-stories.30adeb6f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-common-preview-card-preview-card-component-stories.30adeb6f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-pages-dashboard-dashboard-component-stories.530618c2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin app-pages-dashboard-dashboard-component-stories.530618c2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Button-stories.4e99bf02.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Button-stories.4e99bf02.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Header-stories.5cd57dc9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Header-stories.5cd57dc9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Page-stories.55b404e5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Page-stories.55b404e5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 381.d1c76628.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 381.d1c76628.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 21.7083bd0d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 21.7083bd0d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 687.3ab94d8e.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 687.3ab94d8e.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.cc1932ad.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.cc1932ad.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 396.9068a67c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 396.9068a67c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 464.eaca70c4.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 464.eaca70c4.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 778.86fc22fe.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 778.86fc22fe.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 615.62d168d6.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 615.62d168d6.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 156.6f025f1b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 156.6f025f1b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 513.de259c9e.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 513.de259c9e.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 634.71e4f141.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 634.71e4f141.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.cc1932ad.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.cc1932ad.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 615.62d168d6.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 615.62d168d6.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 156.6f025f1b.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 156.6f025f1b.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 513.de259c9e.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 513.de259c9e.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.458755aedd62e5c566ed.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.458755aedd62e5c566ed.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.6e1f9046.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.6e1f9046.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.bfb4853f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.bfb4853f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-common-active-project-card-active-project-card-component-stories.6eb1a836.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-common-active-project-card-active-project-card-component-stories.6eb1a836.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-common-logo-logo-component-stories.b5c4e039.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-common-logo-logo-component-stories.b5c4e039.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-common-preview-card-preview-card-component-stories.e359d983.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-common-preview-card-preview-card-component-stories.e359d983.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-pages-dashboard-dashboard-component-stories.162b4783.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin app-pages-dashboard-dashboard-component-stories.162b4783.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Button-stories.09948c08.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Button-stories.09948c08.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Header-stories.297942e5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Header-stories.297942e5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Page-stories.501732be.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Page-stories.501732be.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 381.e07e0801.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 381.e07e0801.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 21.70936823.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 21.70936823.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 687.3298581b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 687.3298581b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 396.74ad2b1f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 396.74ad2b1f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 464.4bb3d04f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 464.4bb3d04f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 778.e5a7b88a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 778.e5a7b88a.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 634.dc61c182.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 634.dc61c182.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Configure-mdx.52ae79d3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin stories-Configure-mdx.52ae79d3.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing angular-occurrences-plugin
+<s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+WARN Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+WARN The same density styles are generated multiple times. Read more about how style duplication can be avoided in a dedicated guide. https://github.com/angular/components/blob/main/guides/duplicate-theming-styles.md
+WARN 
+WARN node_modules/@angular/material/core/theming/_theming.scss 376:9   private-check-duplicate-theme-styles()
+WARN node_modules/@angular/material/core/theming/_all-theme.scss 44:3  all-component-themes()
+WARN src/app/styles/theming/angular-material/theming.scss 68:3         @use
+WARN src/app/styles/theming/_index.scss 3:1                            @use
+WARN src/styles.scss 2:1                                               root stylesheet
+WARN 
+WARN Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+WARN The same typography styles are generated multiple times. Read more about how style duplication can be avoided in a dedicated guide. https://github.com/angular/components/blob/main/guides/duplicate-theming-styles.md
+WARN 
+WARN node_modules/@angular/material/core/theming/_theming.scss 361:7   private-check-duplicate-theme-styles()
+WARN node_modules/@angular/material/core/theming/_all-theme.scss 44:3  all-component-themes()
+WARN src/app/styles/theming/angular-material/theming.scss 68:3         @use
+WARN src/app/styles/theming/_index.scss 3:1                            @use
+WARN src/styles.scss 2:1                                               root stylesheet
+WARN 
+WARN Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+WARN Deprecation Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+WARN 
+WARN Recommendation: math.div(360deg, $length) or calc(360deg / $length)
+WARN 
+WARN More info and automated migrator: https://sass-lang.com/d/slash-div
+WARN 
+WARN src/app/common/active-project-card/active-project-card.component.scss 82:23  root stylesheet
+WARN 
+WARN /Volumes/development/design_system/design-system-impl-material/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Volumes/development/design_system/design-system-impl-material/src/app/app.config.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Volumes/development/design_system/design-system-impl-material/src/app/app.routes.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Volumes/development/design_system/design-system-impl-material/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   static/media/addon-library.7a58d2cb.png (456 KiB)
+WARN   assets/images/project-3.png (353 KiB)
+WARN   841.e9171d65.iframe.bundle.js (583 KiB)
+WARN   615.d30d73b2.iframe.bundle.js (812 KiB)
+WARN   156.d683778f.iframe.bundle.js (2.25 MiB)
+WARN   513.6924b192.iframe.bundle.js (439 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (2.56 MiB)
+WARN       runtime~main.bfb4853f.iframe.bundle.js
+WARN       156.d683778f.iframe.bundle.js
+WARN       main.458755aedd62e5c566ed.css
+WARN       main.6e1f9046.iframe.bundle.js
+WARN 
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+info => Preview built (11 s)
+info => Output directory: /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs
