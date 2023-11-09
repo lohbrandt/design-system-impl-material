@@ -39,8 +39,9 @@
                 }
             ],
             "indexSignatures": [],
-            "kind": 168,
-            "methods": []
+            "kind": 171,
+            "methods": [],
+            "extends": []
         },
         {
             "name": "User",
@@ -52,7 +53,8 @@
             "sourceCode": "export interface User {}\n",
             "properties": [],
             "indexSignatures": [],
-            "methods": []
+            "methods": [],
+            "extends": []
         }
     ],
     "injectables": [],
@@ -133,6 +135,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<div class=\"cover\">\n  <div class=\"scene\">\n    <div class=\"sphere\">\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n      <div class=\"slice\">\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n        <div class=\"surface\"></div>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"content\">\n  <div class=\"title\">{{item?.title}}</div>\n  <mat-progress-bar class=\"progress\" color=\"primary\" mode=\"determinate\"  [value]=\"progress\"></mat-progress-bar>\n</div>\n"
         },
         {
@@ -199,6 +202,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<labs-main-layout>\n  <router-outlet></router-outlet>\n</labs-main-layout>\n"
         },
         {
@@ -239,17 +243,17 @@
                         {
                             "pos": 786,
                             "end": 799,
-                            "flags": 8421376,
+                            "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
-                            "kind": 330,
+                            "kind": 334,
                             "tagName": {
                                 "pos": 787,
                                 "end": 795,
-                                "flags": 8421376,
+                                "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
-                                "kind": 79,
+                                "kind": 80,
                                 "escapedText": "required"
                             },
                             "comment": ""
@@ -321,6 +325,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "accessors": {
                 "classes": {
                     "name": "classes",
@@ -411,6 +416,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<div class=\"page-title\">Dashboard</div>\n<div class=\"sections\">\n  <div class=\"section\">\n    <div class=\"section-title\">Recent</div>\n    <div class=\"items\">\n      <labs-preview-card *ngFor=\"let item of items\" [item]=\"item\"></labs-preview-card>\n    </div>\n  </div>\n  <div class=\"section\">\n    <div class=\"section-title\">Active</div>\n    <labs-active-project-card [item]=\"activeItem\"></labs-active-project-card>\n  </div>\n</div>\n"
         },
         {
@@ -487,7 +493,8 @@
                     "styleUrl": "./header.css"
                 }
             ],
-            "stylesData": ""
+            "stylesData": "",
+            "extends": []
         },
         {
             "name": "LogoComponent",
@@ -535,6 +542,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<img src=\"assets/images/app-logo.png\" alt=\"\">\n"
         },
         {
@@ -611,6 +619,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<labs-top-app-bar></labs-top-app-bar>\n<mat-drawer-container class=\"drawer-container\">\n  <mat-drawer class=\"drawer\" mode=\"side\" opened>\n    <div class=\"navigation\">\n      <div class=\"top\">\n        <labs-logo></labs-logo>\n        <div class=\"title\">Components</div>\n      </div>\n      <div class=\"scroll-container\">\n        <labs-navigation></labs-navigation>\n      </div>\n    </div>\n  </mat-drawer>\n  <mat-drawer-content class=\"drawer-content\">\n    <ng-content></ng-content>\n  </mat-drawer-content>\n</mat-drawer-container>\n"
         },
         {
@@ -673,6 +682,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<mat-list>\n  <mat-list-item class=\"item\" routerLink=\"dashboard\" routerLinkActive=\"active\">Dashboard</mat-list-item>\n  <mat-list-item class=\"item\" matRipple>Search</mat-list-item>\n  <mat-list-item class=\"item\" matRipple>Reporting</mat-list-item>\n  <mat-list-item class=\"item\" matRipple>Settings</mat-list-item>\n</mat-list>\n"
         },
         {
@@ -756,7 +766,8 @@
                     "styleUrl": "./page.css"
                 }
             ],
-            "stylesData": ""
+            "stylesData": "",
+            "extends": []
         },
         {
             "name": "PreviewCardComponent",
@@ -826,6 +837,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<div class=\"cover\" matRipple>\n  <img [src]=\"item.preview\" *ngIf=\"item\">\n</div>\n<div class=\"content\">\n  <div class=\"title\">{{item?.title}}</div>\n</div>\n"
         },
         {
@@ -878,6 +890,7 @@
                 }
             ],
             "stylesData": "",
+            "extends": [],
             "templateData": "<mat-toolbar>\n  <div class=\"left\"></div>\n  <div class=\"center\"></div>\n  <div class=\"right\">\n    <img class=\"bell-mock\" src=\"assets/images/bell.png\">\n    <img class=\"avatar\" src=\"assets/images/user.png\">\n  </div>\n</mat-toolbar>\n"
         }
     ],
@@ -898,21 +911,21 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  args: {\n    item: {id: '1', title: 'Active Card', preview: ''},\n    progress: 42,\n  }\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/common/logo/logo.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\n  args: {}\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    item: {id: '1', title: 'Active Card', preview: ''},\n    progress: 42,\n  }\n}"
             },
             {
                 "name": "Default",
@@ -1018,21 +1031,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<ActiveProjectCardComponent>",
-                "defaultValue": "{\n  title: 'Common / Cards / Active Project',\n  component: ActiveProjectCardComponent,\n  argTypes: {\n    progress: {\n      control: {type: 'range', min: 0, max: 100, step: 3}\n    }\n  }\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/common/logo/logo.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<LogoComponent>",
                 "defaultValue": "{\n  title: 'Common / App / Logo',\n  component: LogoComponent,\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<ActiveProjectCardComponent>",
+                "defaultValue": "{\n  title: 'Common / Cards / Active Project',\n  component: ActiveProjectCardComponent,\n  argTypes: {\n    progress: {\n      control: {type: 'range', min: 0, max: 100, step: 3}\n    }\n  }\n}"
             },
             {
                 "name": "preview",
@@ -1106,7 +1119,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
-                "kind": 180
+                "kind": 183
             },
             {
                 "name": "Story",
@@ -1117,7 +1130,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
-                "kind": 180
+                "kind": 183
             },
             {
                 "name": "Story",
@@ -1128,18 +1141,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
-                "kind": 180
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
-                "rawtype": "StoryObj<ActiveProjectCardComponent>",
-                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 180
+                "kind": 183
             },
             {
                 "name": "Story",
@@ -1150,7 +1152,18 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
-                "kind": 180
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<ActiveProjectCardComponent>",
+                "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
             }
         ],
         "enumerations": [],
@@ -1165,28 +1178,6 @@
                     "deprecationMessage": "",
                     "type": "ApplicationConfig",
                     "defaultValue": "{\n  providers: [provideRouter(routes, withHashLocation()), provideAnimations()]\n}"
-                }
-            ],
-            "src/app/common/active-project-card/active-project-card.component.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  args: {\n    item: {id: '1', title: 'Active Card', preview: ''},\n    progress: 42,\n  }\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<ActiveProjectCardComponent>",
-                    "defaultValue": "{\n  title: 'Common / Cards / Active Project',\n  component: ActiveProjectCardComponent,\n  argTypes: {\n    progress: {\n      control: {type: 'range', min: 0, max: 100, step: 3}\n    }\n  }\n}"
                 }
             ],
             "src/app/common/logo/logo.component.stories.ts": [
@@ -1209,6 +1200,28 @@
                     "deprecationMessage": "",
                     "type": "Meta<LogoComponent>",
                     "defaultValue": "{\n  title: 'Common / App / Logo',\n  component: LogoComponent,\n}"
+                }
+            ],
+            "src/app/common/active-project-card/active-project-card.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    item: {id: '1', title: 'Active Card', preview: ''},\n    progress: 42,\n  }\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<ActiveProjectCardComponent>",
+                    "defaultValue": "{\n  title: 'Common / Cards / Active Project',\n  component: ActiveProjectCardComponent,\n  argTypes: {\n    progress: {\n      control: {type: 'range', min: 0, max: 100, step: 3}\n    }\n  }\n}"
                 }
             ],
             "src/app/common/preview-card/preview-card.component.stories.ts": [
@@ -1397,7 +1410,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
-                    "kind": 180
+                    "kind": 183
                 }
             ],
             "src/stories/Header.stories.ts": [
@@ -1410,7 +1423,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
-                    "kind": 180
+                    "kind": 183
                 }
             ],
             "src/stories/Page.stories.ts": [
@@ -1423,20 +1436,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
-                    "kind": 180
-                }
-            ],
-            "src/app/common/active-project-card/active-project-card.component.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<ActiveProjectCardComponent>",
-                    "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 180
+                    "kind": 183
                 }
             ],
             "src/app/common/logo/logo.component.stories.ts": [
@@ -1449,7 +1449,20 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
-                    "kind": 180
+                    "kind": 183
+                }
+            ],
+            "src/app/common/active-project-card/active-project-card.component.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ActiveProjectCardComponent>",
+                    "file": "src/app/common/active-project-card/active-project-card.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
                 }
             ]
         }
