@@ -1,6 +1,6 @@
 
 > design-system-impl-material@0.0.0 build-storybook
-> ng run design-system-impl-material:build-storybook --output-dir /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs
+> ng run design-system-impl-material:build-storybook --output-dir /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--28841-iaR72OUEXaBo
 
 Node.js version v21.1.0 detected.
 Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/releases/.
@@ -27,247 +27,247 @@ Node.js version : v21.1.0
 
 Operating system : macOS Unknown
 
-[12:50:33] No configuration file found, switching to CLI flags.
-[12:50:33] Using tsconfig file : /Volumes/development/design_system/design-system-impl-material/.storybook/tsconfig.json
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/.storybook/preview.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/favicon.ico
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/index.html
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/main.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/styles.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.config.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.routes.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Button.stories.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/Configure.mdx
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Header.stories.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Page.stories.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/User.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/button.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/button.css
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/header.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/header.css
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/page.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/page.css
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/app-logo.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/bell.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-1.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-2.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-3.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/tt-logo-dark-theme.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/tt-logo-light-theme.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/user.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/accessibility.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/accessibility.svg
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/addon-library.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/assets.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/context.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/discord.svg
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/docs.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/figma-plugin.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/github.svg
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/share.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/styling.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/testing.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/theming.png
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/tutorials.svg
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/youtube.svg
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.stories.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.stories.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.stories.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/shared/models/project.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.html
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.scss
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.stories.ts
-[12:50:33] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.ts
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/breakpoints.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/overlay.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/state.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/typography.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/_index.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/sys-color-dark.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/sys-color-light.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/_index.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/ref-colors.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/ref-typeface.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-shape.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-sizes.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-states.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-typescale.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/angular-material/theming.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/angular-material/typography-config.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/overrides/drawer.scss
-[12:50:33] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/overrides/mdc.scss
-[12:50:33] Searching package.json file
-[12:50:33] package.json file found
-[12:50:33] Processing package.json dependencies
-[12:50:33] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
-[12:50:33] README.md file found
-[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/CHANGELOG read
-[12:50:33] Continuing without CHANGELOG.md file
-[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/CONTRIBUTING read
-[12:50:33] Continuing without CONTRIBUTING.md file
-[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/LICENSE read
-[12:50:33] Continuing without LICENSE.md file
-[12:50:33] Error during /Volumes/development/design_system/design-system-impl-material/TODO read
-[12:50:33] Continuing without TODO.md file
-[12:50:33] Get dependencies data
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/.storybook/preview.ts
-[12:50:33] found          : preview
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/main.ts
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.ts
-[12:50:33] found          : AppComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33]                : 	- RouterOutlet
-[12:50:33]                : 	- MainLayoutComponent
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.config.ts
-[12:50:33] found          : appConfig
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.routes.ts
-[12:50:33] Analysing routes definitions and clean them if necessary
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Button.stories.ts
-[12:50:33] found          : meta
-[12:50:33] found          : Story
-[12:50:33] found          : Primary
-[12:50:33] found          : Secondary
-[12:50:33] found          : Large
-[12:50:33] found          : Small
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Header.stories.ts
-[12:50:33] found          : meta
-[12:50:33] found          : Story
-[12:50:33] found          : LoggedIn
-[12:50:33] found          : LoggedOut
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Page.stories.ts
-[12:50:33] found          : meta
-[12:50:33] found          : Story
-[12:50:33] found          : LoggedOut
-[12:50:33] found          : LoggedIn
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/User.ts
-[12:50:33] found          : User
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/button.component.ts
-[12:50:33] found          : ButtonComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/header.component.ts
-[12:50:33] found          : HeaderComponent
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/page.component.ts
-[12:50:33] found          : PageComponent
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.stories.ts
-[12:50:33] found          : meta
-[12:50:33] found          : Story
-[12:50:33] found          : Default
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.ts
-[12:50:33] found          : ActiveProjectCardComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33]                : 	- MatProgressBarModule
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.stories.ts
-[12:50:33] found          : meta
-[12:50:33] found          : Story
-[12:50:33] found          : Default
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.ts
-[12:50:33] found          : LogoComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.ts
-[12:50:33] found          : NavigationComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33]                : 	- MatListModule
-[12:50:33]                : 	- RouterLink
-[12:50:33]                : 	- RouterLinkActive
-[12:50:33]                : 	- MatRippleModule
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.ts
-[12:50:33] found          : MainLayoutComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33]                : 	- MatSidenavModule
-[12:50:33]                : 	- TopAppBarComponent
-[12:50:33]                : 	- LogoComponent
-[12:50:33]                : 	- MatListModule
-[12:50:33]                : 	- MatBadgeModule
-[12:50:33]                : 	- MatButtonModule
-[12:50:33]                : 	- NavigationComponent
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.ts
-[12:50:33] found          : TopAppBarComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33]                : 	- MatToolbarModule
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.stories.ts
-[12:50:33] found          : Template
-[12:50:33] found          : Default
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.ts
-[12:50:33] found          : PreviewCardComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33]                : 	- NgIf
-[12:50:33]                : 	- MatRippleModule
-[12:50:33]                : 	- MatProgressBarModule
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/shared/models/project.ts
-[12:50:33] found          : Project
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.stories.ts
-[12:50:33] found          : Template
-[12:50:33] found          : Default
-[12:50:33] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.ts
-[12:50:33] found          : DashboardComponent
-[12:50:33]                : - imports:
-[12:50:33]                : 	- CommonModule
-[12:50:33]                : 	- PreviewCardComponent
-[12:50:33]                : 	- NgFor
-[12:50:33]                : 	- ActiveProjectCardComponent
-[12:50:33] -------------------
-[12:50:33] Project statistics 
-[12:50:33] - component  : 11
-[12:50:33] - interface  : 2
-[12:50:33] -------------------
-[12:50:33] Prepare components
-[12:50:33]  ActiveProjectCardComponent has a templateUrl, include it
-[12:50:33]  ActiveProjectCardComponent has styleUrls, include them
-[12:50:33]  AppComponent has a templateUrl, include it
-[12:50:33]  AppComponent has styleUrls, include them
-[12:50:33]  ButtonComponent has styleUrls, include them
-[12:50:33]  DashboardComponent has a templateUrl, include it
-[12:50:33]  DashboardComponent has styleUrls, include them
-[12:50:33]  HeaderComponent has styleUrls, include them
-[12:50:33]  LogoComponent has a templateUrl, include it
-[12:50:33]  LogoComponent has styleUrls, include them
-[12:50:33]  MainLayoutComponent has a templateUrl, include it
-[12:50:33]  MainLayoutComponent has styleUrls, include them
-[12:50:33]  NavigationComponent has a templateUrl, include it
-[12:50:33]  NavigationComponent has styleUrls, include them
-[12:50:33]  PageComponent has styleUrls, include them
-[12:50:33]  PreviewCardComponent has a templateUrl, include it
-[12:50:33]  PreviewCardComponent has styleUrls, include them
-[12:50:33]  TopAppBarComponent has a templateUrl, include it
-[12:50:33]  TopAppBarComponent has styleUrls, include them
-[12:50:33] Prepare modules
-[12:50:33] Prepare interfaces
-[12:50:33] Prepare miscellaneous
-[12:50:33] Process documentation coverage report
-[12:50:33] Generating documentation in export format json
-[12:50:33] Documentation generated in ./ in 0.16 seconds
-info => Cleaning outputDir: /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs
+[13:08:41] No configuration file found, switching to CLI flags.
+[13:08:41] Using tsconfig file : /Volumes/development/design_system/design-system-impl-material/.storybook/tsconfig.json
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/.storybook/preview.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/favicon.ico
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/index.html
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/main.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/styles.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.config.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/app.routes.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Button.stories.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/Configure.mdx
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Header.stories.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/Page.stories.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/User.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/button.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/button.css
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/header.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/header.css
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/stories/page.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/page.css
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/app-logo.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/bell.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-1.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-2.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/project-3.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/tt-logo-dark-theme.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/tt-logo-light-theme.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/assets/images/user.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/accessibility.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/accessibility.svg
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/addon-library.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/assets.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/context.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/discord.svg
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/docs.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/figma-plugin.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/github.svg
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/share.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/styling.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/testing.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/theming.png
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/tutorials.svg
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/stories/assets/youtube.svg
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.stories.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.stories.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.stories.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.stories.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/breakpoints.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/overlay.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/state.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/mixins/typography.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/_index.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/sys-color-dark.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/sys-color-light.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/_index.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/ref-colors.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/ref-typeface.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-shape.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-sizes.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-states.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/tokens/sys-typescale.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.html
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.scss
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.ts
+[13:08:41] Including      : /Volumes/development/design_system/design-system-impl-material/src/app/shared/models/project.ts
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/angular-material/theming.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/angular-material/typography-config.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/overrides/drawer.scss
+[13:08:41] Excluding      : /Volumes/development/design_system/design-system-impl-material/src/app/styles/theming/overrides/mdc.scss
+[13:08:41] Searching package.json file
+[13:08:41] package.json file found
+[13:08:41] Processing package.json dependencies
+[13:08:41] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[13:08:41] README.md file found
+[13:08:41] Error during /Volumes/development/design_system/design-system-impl-material/CHANGELOG read
+[13:08:41] Continuing without CHANGELOG.md file
+[13:08:41] Error during /Volumes/development/design_system/design-system-impl-material/CONTRIBUTING read
+[13:08:41] Continuing without CONTRIBUTING.md file
+[13:08:41] Error during /Volumes/development/design_system/design-system-impl-material/LICENSE read
+[13:08:41] Continuing without LICENSE.md file
+[13:08:41] Error during /Volumes/development/design_system/design-system-impl-material/TODO read
+[13:08:41] Continuing without TODO.md file
+[13:08:41] Get dependencies data
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/.storybook/preview.ts
+[13:08:41] found          : preview
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/main.ts
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.component.ts
+[13:08:41] found          : AppComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41]                : 	- RouterOutlet
+[13:08:41]                : 	- MainLayoutComponent
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.config.ts
+[13:08:41] found          : appConfig
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/app.routes.ts
+[13:08:41] Analysing routes definitions and clean them if necessary
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Button.stories.ts
+[13:08:41] found          : meta
+[13:08:41] found          : Story
+[13:08:41] found          : Primary
+[13:08:41] found          : Secondary
+[13:08:41] found          : Large
+[13:08:41] found          : Small
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Header.stories.ts
+[13:08:41] found          : meta
+[13:08:41] found          : Story
+[13:08:41] found          : LoggedIn
+[13:08:41] found          : LoggedOut
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/Page.stories.ts
+[13:08:41] found          : meta
+[13:08:41] found          : Story
+[13:08:41] found          : LoggedOut
+[13:08:41] found          : LoggedIn
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/User.ts
+[13:08:41] found          : User
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/button.component.ts
+[13:08:41] found          : ButtonComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/header.component.ts
+[13:08:41] found          : HeaderComponent
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/stories/page.component.ts
+[13:08:41] found          : PageComponent
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.stories.ts
+[13:08:41] found          : meta
+[13:08:41] found          : Story
+[13:08:41] found          : Default
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/active-project-card/active-project-card.component.ts
+[13:08:41] found          : ActiveProjectCardComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41]                : 	- MatProgressBarModule
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.stories.ts
+[13:08:41] found          : meta
+[13:08:41] found          : Story
+[13:08:41] found          : Default
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/logo/logo.component.ts
+[13:08:41] found          : LogoComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/main-layout/main-layout.component.ts
+[13:08:41] found          : MainLayoutComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41]                : 	- MatSidenavModule
+[13:08:41]                : 	- TopAppBarComponent
+[13:08:41]                : 	- LogoComponent
+[13:08:41]                : 	- MatListModule
+[13:08:41]                : 	- MatBadgeModule
+[13:08:41]                : 	- MatButtonModule
+[13:08:41]                : 	- NavigationComponent
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/navigation/navigation.component.ts
+[13:08:41] found          : NavigationComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41]                : 	- MatListModule
+[13:08:41]                : 	- RouterLink
+[13:08:41]                : 	- RouterLinkActive
+[13:08:41]                : 	- MatRippleModule
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.stories.ts
+[13:08:41] found          : Template
+[13:08:41] found          : Default
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/preview-card/preview-card.component.ts
+[13:08:41] found          : PreviewCardComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41]                : 	- NgIf
+[13:08:41]                : 	- MatRippleModule
+[13:08:41]                : 	- MatProgressBarModule
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.stories.ts
+[13:08:41] found          : Template
+[13:08:41] found          : Default
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/pages/dashboard/dashboard.component.ts
+[13:08:41] found          : DashboardComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41]                : 	- PreviewCardComponent
+[13:08:41]                : 	- NgFor
+[13:08:41]                : 	- ActiveProjectCardComponent
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/common/top-app-bar/top-app-bar.component.ts
+[13:08:41] found          : TopAppBarComponent
+[13:08:41]                : - imports:
+[13:08:41]                : 	- CommonModule
+[13:08:41]                : 	- MatToolbarModule
+[13:08:41] parsing        : /Volumes/development/design_system/design-system-impl-material/src/app/shared/models/project.ts
+[13:08:41] found          : Project
+[13:08:41] -------------------
+[13:08:41] Project statistics 
+[13:08:41] - component  : 11
+[13:08:41] - interface  : 2
+[13:08:41] -------------------
+[13:08:41] Prepare components
+[13:08:41]  ActiveProjectCardComponent has a templateUrl, include it
+[13:08:41]  ActiveProjectCardComponent has styleUrls, include them
+[13:08:41]  AppComponent has a templateUrl, include it
+[13:08:41]  AppComponent has styleUrls, include them
+[13:08:41]  ButtonComponent has styleUrls, include them
+[13:08:41]  DashboardComponent has a templateUrl, include it
+[13:08:41]  DashboardComponent has styleUrls, include them
+[13:08:41]  HeaderComponent has styleUrls, include them
+[13:08:41]  LogoComponent has a templateUrl, include it
+[13:08:41]  LogoComponent has styleUrls, include them
+[13:08:41]  MainLayoutComponent has a templateUrl, include it
+[13:08:41]  MainLayoutComponent has styleUrls, include them
+[13:08:41]  NavigationComponent has a templateUrl, include it
+[13:08:41]  NavigationComponent has styleUrls, include them
+[13:08:41]  PageComponent has styleUrls, include them
+[13:08:41]  PreviewCardComponent has a templateUrl, include it
+[13:08:41]  PreviewCardComponent has styleUrls, include them
+[13:08:41]  TopAppBarComponent has a templateUrl, include it
+[13:08:41]  TopAppBarComponent has styleUrls, include them
+[13:08:41] Prepare modules
+[13:08:41] Prepare interfaces
+[13:08:41] Prepare miscellaneous
+[13:08:41] Process documentation coverage report
+[13:08:41] Generating documentation in export format json
+[13:08:41] Documentation generated in ./ in 0.141 seconds
+info => Cleaning outputDir: /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--28841-iaR72OUEXaBo
 
-(node:26991) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:28958) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 info => Loading presets
 WARN The "@storybook/addon-mdx-gfm" addon is meant as a migration assistant for Storybook 7.0; and will likely be removed in a future version.
@@ -276,9 +276,9 @@ WARN https://storybook.js.org/docs/react/writing-docs/mdx#lack-of-github-flavore
 WARN 
 WARN Once you've made the necessary changes, you can remove the addon from your package.json and storybook config.
 info => Building manager..
-info => Manager built (78 ms)
+info => Manager built (72 ms)
 info => Building preview..
-info => Copying static files: /Volumes/development/design_system/design-system-impl-material/node_modules/@storybook/manager/static at /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs/sb-common-assets
+info => Copying static files: /Volumes/development/design_system/design-system-impl-material/node_modules/@storybook/manager/static at /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--28841-iaR72OUEXaBo/sb-common-assets
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
 info => Using angular browser target options from "design-system-impl-material:build"
@@ -393,7 +393,7 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building
 <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js
-<s> [webpack.Progress] 10% building 0/4 entries 1/4 dependencies 0/1 modules
+<s> [webpack.Progress] 10% building 0/4 entries 2/4 dependencies 0/2 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/css-loader/dist/cjs.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
@@ -408,9 +408,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 37% building 2/4 entries 24/39 dependencies 5/24 modules
 <s> [webpack.Progress] 37% building import loader ./node_modules/unplugin/dist/webpack/loaders/load.js
 <s> [webpack.Progress] 37% building 2/4 entries 52/82 dependencies 7/43 modules
-<s> [webpack.Progress] 37% building 2/4 entries 343/400 dependencies 78/168 modules
-<s> [webpack.Progress] 37% building 2/4 entries 2147/2200 dependencies 174/722 modules
-<s> [webpack.Progress] 55% building 2/4 entries 3373/3400 dependencies 926/1112 modules
+<s> [webpack.Progress] 31% building 2/4 entries 376/949 dependencies 79/200 modules
+<s> [webpack.Progress] 37% building 2/4 entries 2435/2497 dependencies 400/799 modules
 <s> [webpack.Progress] 64% building 3/4 entries 3836/3836 dependencies 1189/1197 modules
 <s> [webpack.Progress] 65% building 4/4 entries 3839/3839 dependencies 1197/1197 modules
 <s> [webpack.Progress] 65% building
@@ -704,4 +703,4 @@ WARN
 <s> [webpack.Progress] 100% 
 
 info => Preview built (11 s)
-info => Output directory: /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--26872-2zYKy5lqLrIs
+info => Output directory: /var/folders/g_/nmx9qxwx2d9523k6sgshfg900000gn/T/chromatic--28841-iaR72OUEXaBo
